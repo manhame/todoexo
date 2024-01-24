@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "aria-hidden";
+}
+#wrapper {
+    padding: 20px;
 }
 #todo {
     min-height: 100vh;
@@ -12,18 +16,23 @@
     margin-bottom: 20px;
 }
 #todoCards {
+    display: flex;
     background-color: white;
     width: 600px;
+    gap: 10px;
 }
 .todoCard {
     position: relative;
+    width: 200px;
+}
+.task {
+    width: 100%;
 }
 .delBtn {
     position: absolute;
-    width: 50px;
-    height: 50px;
     background : white;
     color:black;
     font-size: 20px;
-    bottom: 10px;
+    bottom: 15px;
+    right: 15px;
 }
