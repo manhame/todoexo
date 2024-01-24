@@ -5,7 +5,7 @@
     font-family: "aria-hidden";
 }
 #wrapper {
-    padding: 20px;
+    padding: 20px; /*détache tous les éléments de 20px*/
 }
 #todo {
     min-height: 100vh;
@@ -17,22 +17,22 @@
 }
 #todoCards {
     display: flex;
+    flex-wrap: wrap; /*organise les éléments dans l'espace*/
     background-color: white;
-    width: 600px;
-    gap: 10px;
+    gap: 10px; /*espace entre les éléments de la class*/
 }
 .todoCard {
-    position: relative;
+    position: relative; /*l'élément qui reçoit l'élément absolute en "relative"*/
     width: 200px;
 }
 .task {
     width: 100%;
 }
 .delBtn {
-    position: absolute;
+    position: absolute; /*l'élément à placer en "absolute"*/
     background : white;
     color:black;
     font-size: 20px;
-    bottom: 15px;
+    bottom: 15px; /* à 15px du bas*/
     right: 15px;
 }
