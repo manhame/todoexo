@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "aria-hidden";
+}
+#todo {
+    min-height: 100vh;
+    background-color:white;
+}
+#btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#todoCards {
+    background-color: white;
+    width: 600px;
+}
+.todoCard {
+    position: relative;
+}
+.delBtn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background : white;
+    color:black;
+    font-size: 20px;
+    bottom: 10px;
+}
